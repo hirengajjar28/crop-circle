@@ -1,0 +1,9 @@
+.icon{
+    &-login{
+        background-image: url('../../assets/icons/login.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        background-clip:border-box;
+    }
+}
