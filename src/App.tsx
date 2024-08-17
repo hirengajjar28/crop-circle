@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-import { Login } from './component/login/Login';
+import { Login } from './component/auth/login/Login';
 
 function App() {
   // const [count, setCount] = useState(0)

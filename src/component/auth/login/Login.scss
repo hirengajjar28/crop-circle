@@ -1,4 +1,4 @@
-@import '../../shared/icons/icons.scss';
+@import "../../../shared/icons/icons.scss";
 
 .loginContainer {
     margin: 0 auto;
@@ -9,11 +9,7 @@
     position: relative;
 
     .login {
-        .top:not(:last-child) {
-            margin: 20px 0;
-        }
-
-        width:300px;
+        width: 300px;
         border: 5px solid rgba(255, 255, 255, 0.9);
         border-radius: 30px;
         padding: 20px;
@@ -27,6 +23,11 @@
         outline: 4px outset rgba(7, 29, 43, 0.08);
         outline-offset: 0px;
 
+        .top {
+            &:not(:last-child) {
+                margin: 20px 0;
+            }
+        }
 
         .icon {
             width: 40px;
@@ -48,7 +49,7 @@
         }
 
         .top {
-            *:not(:last-child) {
+            :not(:last-child) {
                 margin-bottom: 10px;
             }
         }
