@@ -1,7 +1,13 @@
+import { Sidebar } from '../../shared/sidebar/Sidebar';
+import './Dashboard.scss';
 export function Dashboard() {
+
     return (
         <>
-           dashoard
+            <Sidebar></Sidebar>
+            <div className='dasboard'>
+                hiren
+            </div>
         </>
     )
 }

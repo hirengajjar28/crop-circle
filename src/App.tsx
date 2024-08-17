@@ -1,4 +1,5 @@
 // import { useState } from 'react'
+import 'animate.css';
 import { Login } from './component/auth/login/Login';
 
 function App() {
